@@ -1,0 +1,12 @@
+services:
+
+  # Front-End configuration for the running application
+  # Exposed for all HTTP and HTTPS traffic, routed via port 8888
+  # ---------------
+  frontend:
+    build:
+      context: frontend/
+    volumes:
+      - ./frontend/webroot:/var/www
+    ports:
+      - "8888:8888"

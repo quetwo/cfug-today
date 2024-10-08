@@ -1,3 +1,6 @@
-component {
-  // Place your content here
+component
+{
+
+    this.name = "Today";
+
 }
