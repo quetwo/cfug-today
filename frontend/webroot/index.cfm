@@ -68,7 +68,7 @@
 </head>
 <body>
 
-<h2>Today is : <cfoutput>#dateFormat(now(),"medium")#</cfoutput></h2>
+<h2>The Notible things for the day of : <cfoutput>#dateFormat(now(),"medium")#</cfoutput></h2>
 <hr>
 
     <h3>Birthdays:</h3>
